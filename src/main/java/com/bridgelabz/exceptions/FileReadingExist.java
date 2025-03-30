@@ -7,7 +7,6 @@ public class FileReadingExist {
         {
             try{
                 // Attempt to read the file
-
                 BufferedReader reader= new BufferedReader(new FileReader("C:\\Users\\hp\\Desktop\\bridgelabz-workspace\\java-exception\\src\\main\\java\\com\\bridgelabz\\exceptions\\data.txt"));
                 String line;
                 while((line=reader.readLine()) != null){
